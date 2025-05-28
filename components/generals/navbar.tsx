@@ -1,15 +1,20 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
 import { ShoppingCart } from "lucide-react";
+import { useCartStore } from "@/store/cart-store";
 
 const Navbar = () => {
+  const { items } = useCartStore();
+  const cartCount = items.reduce((acc, item) => acc + item.quantity, 0);
   return (
     <nav className="sticky top-0 z-50 bg-white shadow">
       <div className="container mx-auto flex items-center justify-between px-4 py-4">
         {/* Logo / Brand */}
         <Link
           href="/"
-          className="text-xl font-bold text-blue-700 hover:text-blue-900"
+          className="text-xl font-bold text-black hover:text-blue-900"
         >
           EasyCommerce
         </Link>
@@ -29,9 +34,14 @@ const Navbar = () => {
 
         {/* Cart Link */}
         <div className="flex items-center space-x-4">
-          <Link href="/cart" className="flex items-center hover:text-blue-600">
+          <Link href="/checkout" className="flex items-center hover:text-blue-600">
             <ShoppingCart className="h-5 w-5" />
-            <span className="ml-1">Cart</span>
+            <span className="ml-1">
+              Cart{" "}
+              <span className="text-blue-600 font-semibold text-sm">
+                {cartCount}
+              </span>
+            </span>
           </Link>
         </div>
       </div>
