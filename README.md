@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛒 Next.js Ecommerce Store — Easy Buy
 
-## Getting Started
+A sleek, modern eCommerce web application built with **Next.js App Router**, **Tailwind CSS v4**, **Shadcn/UI**, and integrated with **Stripe** for product listing and checkout.
 
-First, run the development server:
+🎥 [EasyCommerce](https://youtu.be/DHOhjLBWdFw)
+
+## 🚀 Features
+
+- 🧭 Sticky responsive **Navbar**
+- 🛍️ **Home page** with Stripe-powered product feed
+- 🎞️ **Hero section** with dynamic product image
+- 📦 **Product listing** & individual **product detail pages**
+- 🛒 **Cart** logic & total count
+- 💳 Fully integrated **Stripe Checkout**
+
+## 🔧 Getting Started
+
+1. **Clone the repository**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+git clone https://github.com/YOUR_USERNAME/nextjs-ecommerce.git
+cd nextjs-ecommerce```
+
+Install dependencies
+
+```bash
+pnpm install```
+Set up Stripe keys
+
+Create a .env.local file in the root and add:
+
+env
+
+STRIPE_SECRET_KEY=your_stripe_secret_key
+STRIPE_PUBLIC_KEY=your_stripe_public_key
+Run development server
+
+bash
+
 pnpm dev
-# or
-bun dev
-```
+Visit http://localhost:3000 to view your ecommerce site!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🧾 Stripe Setup
+Sign up at Stripe
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Create a new product with images and a price
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Copy your Secret and Public keys into .env.local
 
-## Learn More
+Products are automatically fetched using the Stripe API
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🔮 Future Enhancements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🔐 Auth & User Dashboard
 
-## Deploy on Vercel
+📊 Admin Panel for Product Management
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🧠 AI Helpdesk Chatbot
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🖼️ Image Uploads & Product Variants
+
+🤝 Contributing
+
+Pull requests are welcome! If you'd like to suggest a feature or report a bug, please open an issue.
+
+
+
