@@ -1,4 +1,4 @@
-# 🛒 Next.js Ecommerce Store — Easy Buy
+# 🛒 Next.js Ecommerce Store — EasyCommerce
 
 A sleek, modern eCommerce web application built with **Next.js App Router**, **Tailwind CSS v4**, **Shadcn/UI**, and integrated with **Stripe** for product listing and checkout.
 
@@ -19,48 +19,49 @@ A sleek, modern eCommerce web application built with **Next.js App Router**, **T
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/nextjs-ecommerce.git
-cd nextjs-ecommerce```
+cd nextjs-ecommerce
+```
 
-Install dependencies
+2. Install dependencies
 
 ```bash
-pnpm install```
-Set up Stripe keys
+pnpm install
+```
+3. Set up Stripe keys
 
 Create a .env.local file in the root and add:
 
-env
-
+```bash
 STRIPE_SECRET_KEY=your_stripe_secret_key
 STRIPE_PUBLIC_KEY=your_stripe_public_key
-Run development server
+```
+4. Run development server
 
-bash
-
+```bash
 pnpm dev
-Visit http://localhost:3000 to view your ecommerce site!
+```
+- Visit http://localhost:3000 to view your ecommerce site!
 
-🧾 Stripe Setup
-Sign up at Stripe
+🧾 Stripe Setup:
 
-Create a new product with images and a price
+- Sign up at Stripe
 
-Copy your Secret and Public keys into .env.local
+- Create a new product with images and a price
 
-Products are automatically fetched using the Stripe API
+- Copy your Secret and Public keys into .env.local
+
+- Products are automatically fetched using the Stripe API
 
 
-🔮 Future Enhancements
+🔮 Future Enhancements:
 
-🔐 Auth & User Dashboard
+- 🔐 Auth & User Dashboard
 
-📊 Admin Panel for Product Management
+- 📊 Admin Panel for Product Management
 
-🧠 AI Helpdesk Chatbot
+- 🧠 AI Helpdesk Chatbot
 
-🖼️ Image Uploads & Product Variants
-
-🤝 Contributing
+- 🤝 Contributing
 
 Pull requests are welcome! If you'd like to suggest a feature or report a bug, please open an issue.
 
