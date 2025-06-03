@@ -2,6 +2,8 @@
 
 A sleek, modern eCommerce web application built with **Next.js App Router**, **Tailwind CSS v4**, **Shadcn/UI**, and integrated with **Stripe** for product listing and checkout.
 
+![image](https://github.com/user-attachments/assets/d706320b-48d0-4606-a50e-06c71a0809ee)
+
 🎥 [EasyCommerce](https://youtu.be/DHOhjLBWdFw)
 
 ## 🚀 Features
