@@ -4,7 +4,7 @@ A sleek, modern eCommerce web application built with **Next.js App Router**, **T
 
 ![image](https://github.com/user-attachments/assets/d706320b-48d0-4606-a50e-06c71a0809ee)
 
-🎥 [EasyCommerce](https://youtu.be/DHOhjLBWdFw)
+🎥 [EasyCommerce](https://easy-commerce-three.vercel.app/)
 
 ## 🚀 Features
 
